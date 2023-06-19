@@ -1,8 +1,8 @@
 import React from "react";
 
-function checkList() {
+export default function checkList() {
   return (
-    <div className=" w-full h-1/2">
+    <div className=" w-full h-full border-2 border-black">
       <ul>
         <li>
           <input type="checkbox" name="" id="" /> Social Media Post
@@ -17,5 +17,3 @@ function checkList() {
     </div>
   );
 }
-
-export default checkList;
