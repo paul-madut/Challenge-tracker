@@ -10,7 +10,7 @@ export default function Page() {
         <div className="points_grid h-1/2 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 text-center">
           <div className="points_grid_item border-2 border-black">
             Point 1
-            <div className=" w-full h-full border-2 border-black">
+            <div className=" w-full h-full">
               <ul>
                 <li>
                   <input type="checkbox" name="" id="" /> Social Media Post

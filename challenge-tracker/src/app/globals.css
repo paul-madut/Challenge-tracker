@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.points_grid_item{
+    @apply rounded-xl bg-slate-200 shadow-md hover:shadow-xl;
+}
