@@ -1,9 +1,11 @@
+import React from "react";
+import checkList from "./checkList";
 export default function Page() {
   return (
     <div>
       <h1 className="text-6xl text-center">Paul Tracker</h1>
       <div className="points h-full p-4">
-        <div className="points_grid h-1/2 grid grid-cols-3 gap-5 text-center">
+        <div className="points_grid h-1/2 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 text-center">
           <div className="points_grid_item border-2 border-black">
             Point 1
             <div className=" w-full h-full border-2 border-black">
@@ -21,7 +23,10 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="points_grid_item border-2 border-black">Point 2</div>
+          <div className="points_grid_item border-2 border-black">
+            Point 2<checkList></checkList>
+          </div>
+
           <div className="points_grid_item border-2 border-black">Point 3</div>
         </div>
       </div>
